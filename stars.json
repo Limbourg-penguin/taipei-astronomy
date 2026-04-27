@@ -1,0 +1,69 @@
+{
+    "constellations": [
+      {
+        "name": "冬季：獵戶座 (Orion)",
+        "stars": [
+          {"id":"o1","name":"參宿四","ra":5.92,"dec":7.41,"color":"#ffccaa","mag":0.42},
+          {"id":"o2","name":"參宿五","ra":5.42,"dec":6.35,"color":"#ffffff","mag":1.64},
+          {"id":"o3","name":"參宿三","ra":5.53,"dec":-0.3,"color":"#00d4ff","mag":2.23},
+          {"id":"o4","name":"參宿二","ra":5.61,"dec":-1.2,"color":"#00d4ff","mag":1.7},
+          {"id":"o5","name":"參宿一","ra":5.68,"dec":-1.9,"color":"#00d4ff","mag":1.79},
+          {"id":"o6","name":"參宿七","ra":5.24,"dec":-8.2,"color":"#ddeeff","mag":0.13},
+          {"id":"o7","name":"參宿六","ra":5.79,"dec":-9.67,"color":"#ddeeff","mag":2.06}
+        ],
+        "links": [["o1","o2"],["o2","o3"],["o3","o4"],["o4","o5"],["o5","o7"],["o7","o6"],["o6","o3"],["o1","o5"]]
+      },
+      {
+        "name": "夏季：夏季大三角",
+        "stars": [
+          {"id":"v1","name":"織女星 (天琴座)","ra":18.61,"dec":38.8,"color":"#ffffff","mag":0.03},
+          {"id":"a1","name":"牛郎星 (天鷹座)","ra":19.85,"dec":8.8,"color":"#88eaff","mag":0.77},
+          {"id":"d1","name":"天津四 (天鵝座)","ra":20.68,"dec":45.3,"color":"#ccccff","mag":1.25}
+        ],
+        "links": [["v1","a1"],["a1","d1"],["d1","v1"]]
+      },
+      {
+        "name": "秋季指標：仙后座 (Cassiopeia)",
+        "stars": [
+          {"id":"c1","name":"王良四","ra":0.67,"dec":56.5,"color":"#ffccaa","mag":2.2},
+          {"id":"c2","name":"王良一","ra":0.15,"dec":59.1,"color":"#ffffff","mag":2.2},
+          {"id":"c3","name":"策","ra":0.95,"dec":60.7,"color":"#88eaff","mag":2.1},
+          {"id":"c4","name":"閣道三","ra":1.43,"dec":60.2,"color":"#ffffff","mag":2.6},
+          {"id":"c5","name":"閣道二","ra":1.9,"dec":59.2,"color":"#ffffff","mag":3.3}
+        ],
+        "links": [["c1","c2"],["c2","c3"],["c3","c4"],["c4","c5"]]
+      },
+      {
+        "name": "春季指標：牧夫座與處女座",
+        "stars": [
+          {"id":"b1","name":"大角星 (牧夫座)","ra":14.26,"dec":19.1,"color":"#ffbb77","mag":-0.05},
+          {"id":"b2","name":"角宿一 (處女座)","ra":13.41,"dec":-11.1,"color":"#88eaff","mag":0.98}
+        ],
+        "links": [["b1","b2"]]
+      },
+      {
+        "name": "南天之冠：南十字座 (Crux)",
+        "stars": [
+          {"id":"x1","name":"十字架二","ra":12.44,"dec":-63.1,"color":"#88eaff","mag":0.77},
+          {"id":"x2","name":"十字架三","ra":12.25,"dec":-58.7,"color":"#88eaff","mag":1.25},
+          {"id":"x3","name":"十字架一","ra":12.52,"dec":-57.1,"color":"#ffaa88","mag":1.59},
+          {"id":"x4","name":"十字架四","ra":12.8,"dec":-59.7,"color":"#88eaff","mag":2.79}
+        ],
+        "links": [["x1","x3"],["x2","x4"]]
+      },
+      {
+        "name": "北天指標：北斗七星與北極星",
+        "stars": [
+          {"id":"u1","name":"天樞","ra":11.06,"dec":61.7,"color":"#ffeebb","mag":1.79},
+          {"id":"u2","name":"天璇","ra":11.03,"dec":56.3,"color":"#ffffff","mag":2.37},
+          {"id":"u3","name":"天璣","ra":11.89,"dec":53.7,"color":"#ffffff","mag":2.44},
+          {"id":"u4","name":"天權","ra":12.25,"dec":57.0,"color":"#ffffff","mag":3.3},
+          {"id":"u5","name":"玉衡","ra":12.9,"dec":55.9,"color":"#ffffff","mag":1.77},
+          {"id":"u6","name":"開陽","ra":13.39,"dec":54.9,"color":"#ffffff","mag":2.23},
+          {"id":"u7","name":"搖光","ra":13.79,"dec":49.3,"color":"#ffffff","mag":1.86},
+          {"id":"pol","name":"北極星","ra":2.52,"dec":89.3,"color":"#ffffaa","mag":1.97}
+        ],
+        "links": [["u1","u2"],["u2","u3"],["u3","u4"],["u4","u5"],["u5","u6"],["u6","u7"]]
+      }
+    ]
+  }
